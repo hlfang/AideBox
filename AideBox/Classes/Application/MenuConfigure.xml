@@ -1,0 +1,7 @@
+<MenuList>
+    <Menu title="首页" className="HMViewController" required="NO" normalImage="ic_home_up" highlightImage="ic_home_down"/>
+    <Menu title="游戏" className="GMViewController" required="NO" normalImage="ic_game_up" highlightImage="ic_game_down"/>
+    <Menu title="分类" className="CLViewController" required="NO" normalImage="ic_classify_up" highlightImage="ic_classify_down"/>
+    <Menu title="发烧" className="LAViewController" required="YES" normalImage="ic_launcher_up" highlightImage="ic_launcher_down"/>
+    <Menu title="我的" className="ACViewController" required="YES" normalImage="ic_account_up" highlightImage="ic_account_down"/>
+</MenuList>

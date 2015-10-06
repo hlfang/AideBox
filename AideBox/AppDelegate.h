@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ABRootController.h"
+
+#define kRootViewController [(AppDelegate *)[[UIApplication sharedApplication] delegate] rootController]
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, strong) ABRootController *rootController;
 
 @end
 
